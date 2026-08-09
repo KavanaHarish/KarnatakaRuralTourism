@@ -14,7 +14,7 @@ A full-stack interactive web application for exploring rural tourism in Karnatak
 
 ```bash
 # 1. Clone / unzip the project
-cd karnataka-rural-tourism
+cd RURAL_TOURISM
 
 # 2. Install dependencies
 npm install
