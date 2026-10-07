@@ -258,7 +258,7 @@ export default function ExplorePage() {
         {/* MAP AREA */}
         <div className="h-[45vh] lg:h-full w-full lg:w-[60%] relative z-0">
           <MapContainer center={[14.5, 75.5]} zoom={7} style={{ height: '100%', width: '100%' }} zoomControl={false}>
-            <TileLayer url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png" />
+            <TileLayer url={`https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=${import.meta.env.VITE_CARTO_API_KEY}`} />
             
             <MapController selectedPlace={selectedPlace} />
 
